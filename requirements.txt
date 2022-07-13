@@ -1,0 +1,12 @@
+flask 
+request
+render_template
+Werkzeug
+cv2
+numpy 
+time
+sys
+os
+pandas
+PIL
+gunicorn

@@ -1,0 +1,24 @@
+<!-- {# {% extends "layout.html" %} #} -->
+{% extends "layout.html" %}
+
+{% block content %}
+<center>
+    <div class="centered">
+        <h3 style="color:#7a7373;"><b>Upload an image to predict its Attibutes</b></h3>
+        <div class="upload-form">
+          <!-- <form action = "/uploader" method = "POST" enctype = "multipart/form-data">
+            <input type = "file" name = "file" />
+            <input type = "submit"/>
+          </form> -->
+          <form action="/uploader" method="POST" enctype="multipart/form-data" class="form-inline">
+        
+            <div class="form-group mx-sm-3 mb-2">
+              
+              <input type="file" class="form-control" name="file" >
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">submit</button>
+          </form>
+        </div>
+ </div>
+</center> 
+{% endblock %}
