@@ -1,12 +1,14 @@
 flask 
-request
-render_template
+# request
+# render_template
 Werkzeug
-cv2
+# cv2
+opencv-python
 numpy 
-time
-sys
-os
+# time
+# sys
+# os
 pandas
-PIL
+# PIL
+Pillow
 gunicorn
